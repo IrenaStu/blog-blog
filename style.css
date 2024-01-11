@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #0F172A;
+}
+
+header{
+    max-width: 1440px;
+    padding: 34px 100px;
+    margin-bottom: 94px;
+    margin: 0 auto;
+}
+
+
+.container{
+max-width: 1440px;
+width: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    display: flex;
+list-style:none ;
+gap: 40px;
+}
+.navigation li {
+    padding: 10px;
+}
+
+.recent-projects {
+margin-bottom: 94px;
+}
+
+.navigation li a {
+font-weight: 700;
+font-size: 24px;
+color: #F8FAFC;
+font-family: Roboto;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+h2{
+    font-family: Roboto;
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+color:  #F8FAFC;
+margin-bottom: 83px;
+}
+
+h2 span{
+color: #16B8F3;   
+}
+
+
+h2:hover{
+    text-decoration: underline;
+    
+}
+.conteiner-small{
+    max-width: 1150px;
+    margin: 145px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+}
+
+.card{
+    border-radius: 20px;
+    background-color: #1E293B66;
+    padding: 34px 8px;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+.card > div{
+    display: flex;
+flex-direction: column;
+gap: 25px;
+}
+.card h3{
+color: #F8FAFC;
+font-size: 30px;
+font-weight: 500;
+line-height: 35px;
+text-align: left;
+}
+.card p{
+ color: #CBD5E1;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 23px;
+
+}
+.card div p:first-child{
+    margin-bottom: 14px;
+}
+
+.Latest posts{
+    margin-bottom: 94pt;
+}
+ .conteiner-row{
+    max-width: 1150px;
+    margin: 147px;
+ }
+.card2-1 img{
+    width: 360px;
+    height: 518px;
+}
+
+.cards2{
+    display: flex;
+
+}
+.cards2 img{
+    width: 315px;
+    height: 518px;
+    border-radius: 20px 20px 0px 0px;
+}
+.footer{
+    display: flex;
+    max-width: 1160px;
+    gap: 380px;
+}
+    
+.foot-part1 img{
+    width: 331px;
+    height: 23px;
+    margin: 18px 108px;
+}
+
+.foot-part2 img{
+ width: 152px;
+ height: 41px;
+}
+
+
+
